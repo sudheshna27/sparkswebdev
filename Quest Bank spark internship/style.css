@@ -1,0 +1,175 @@
+
+body {
+	font-family:"Bitter", sans-serif;	
+	background-image: url(ti.png);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-size: cover;
+}
+
+.container{
+    width: 380px;
+	height: 400px;
+	margin:7% auto;
+	border-radius: 25px;
+	background-color: rgba(0,0,0,0.1);
+	box-shadow: 0 0 17px #a97db2;
+}
+
+
+
+.header {
+	text-align: center;
+	padding-top: 5px;
+}
+
+.header h1 {
+	color:white;
+	font-size: 45px;
+	margin-bottom: 20px;
+}
+.form{
+    padding: 10px 20px;
+}
+
+.form-group{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-group label{
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.form-group input{
+    border: 2px solid #f0f0f0;
+    display: block;
+    border-radius: 4px;
+    font-size:15px ;
+    font-family: 'Bitter';
+    font-weight: bold;
+    width: 320px;
+	height: 30px;
+    
+}
+
+
+.form-group i{
+    position: absolute;
+    right: 10px;
+    top: 35px;
+    visibility: hidden;
+}
+
+.form-group span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: bolder;
+    font-size: 13px;
+    font-style: normal;
+    visibility: hidden;
+}
+
+
+.form-group.success input{
+    border-color: #2ecc71;
+    font-family: 'Bitter', serif;
+}
+
+.form-group.error input{
+    border-color: #e74c3c;
+    font-family: 'Bitter', serif;
+}
+
+.form-group.error span{
+    color: #e74c3c;
+    visibility: visible;
+    font-family: 'Bitter', serif;
+}
+
+
+.form-group.success i.ion-ios-checkmark{
+    visibility: visible;
+    color: #2ecc71;
+    font-family: 'Bitter', serif;
+}
+
+
+.form-group.error i.ion-android-alert{
+    visibility: visible;
+    color: #e74c3c;
+    font-family: 'Bitter', serif;
+}
+
+
+.form #submit{
+    background-color: #41314b;
+    font-family: 'Bitter';
+    font-weight: bold;
+    border: none;
+    outline: none;
+    color: #fff;
+    width: 320px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.form #submit:hover{
+    background-color: #784f84;
+}
+
+@media only screen and (max-width : 600px){
+    .form{
+        width: 100%;
+    }
+    .form-group span{
+        font-size: xx-small;
+    }
+}
+
+ul{
+    list-style-type: none;
+    font-size: 26px;
+    margin: 16px;
+    padding: 15px;
+    overflow: hidden;
+    }
+    li {
+    display: inline;
+    float: right;
+    }
+    li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px;
+    font-size: 20px;
+    background-color: rgb(236, 217, 132);
+    }
+    li a:hover {
+    background-color: rgb(236, 217, 132);
+    display: block;
+    }
+    li a:link {
+        text-decoration: none;
+      }
+      
+      li a:visited {
+        text-decoration: none;
+      }
+      
+      li  a:active {
+        text-decoration: underline;
+      }
+    
+    
+    
+    
